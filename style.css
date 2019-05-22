@@ -15,3 +15,27 @@ h3{
     color: green;
     text-align: right;
 }
+h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: darkcyan;
+    transform: translate(-50%, -50%);
+    animation: magic 3s infinite;
+}
+@keyframes magic{
+    0%{
+        color: lightcoral;
+    }
+    50%{
+        font-size: 20px;
+        color: lightblue;
+    }
+    100%{
+        font-size: 80px;
+        color: darkcyan;
+    }
+}
